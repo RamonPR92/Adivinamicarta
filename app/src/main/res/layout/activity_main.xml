@@ -83,6 +83,31 @@
         </LinearLayout>
 
     </LinearLayout>
+    <!-- Barra de eleccion de columna-->
+    <LinearLayout
+        android:layout_weight=".2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnColumnaUno"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Uno"/>
+        <Button
+            android:id="@+id/btnColumnaDos"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Dos"/>
+        <Button
+            android:id="@+id/btnColumnaTres"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Tres"/>
+
+    </LinearLayout>
 
     <!--Barra de estado de juego -->
     <LinearLayout
