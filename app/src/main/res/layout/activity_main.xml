@@ -15,6 +15,7 @@
         android:layout_weight="1">
         <!-- Primera columna-->
         <LinearLayout
+            android:id="@+id/primeraColumna"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:orientation="vertical"
@@ -46,6 +47,7 @@
         </LinearLayout>
         <!-- Segunda  columna-->
         <LinearLayout
+            android:id="@+id/segundaColumna"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -75,8 +77,9 @@
             android:textSize="40sp"
             android:textAlignment="center"/>
     </LinearLayout>
-        <!-- Segunda  columna-->
+        <!-- Tercera  columna-->
         <LinearLayout
+            android:id="@+id/terceraColumna"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:orientation="vertical"
