@@ -43,7 +43,7 @@ public class Baraja {
          int[] cartasOrdenadas = new int[9];
          int posicionArrayPrincipal = 0;
 
-        for (int i = 0; i < cartasOrdenadas.length ; i++) {
+        while(posicionArrayPrincipal < 9) {
             for (int j = 0; j < primero.length; j++) {
                 cartasOrdenadas[posicionArrayPrincipal] = primero[j];
                 posicionArrayPrincipal++;//0 a 2
